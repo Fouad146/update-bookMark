@@ -1,0 +1,114 @@
+*::selection {
+    background-color: #FEC260;
+    color: #F7ECDE;
+}
+
+body {
+    background-color: #F7ECDE;
+
+}
+
+
+
+
+
+
+body header h1 {
+    width: fit-content;
+    font-family: "Pacifico";
+    position: relative;
+    color: #352E28;
+    font-size: 50px;
+    line-height: 1.8;
+
+}
+
+body header h1 .hilite {
+    height: 1.5rem;
+    background-color: #FEC260;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+
+    z-index: -1;
+
+    transition: .5s ease;
+
+}
+
+body header h1:hover .hilite {
+    height: 2rem;
+}
+
+body .container.header {
+    border-bottom: .18rem dotted black;
+}
+
+
+.content header {
+    background-image: linear-gradient(106deg, rgb(65, 166, 92) 0%, rgba(179, 172, 73, 1) 51%, rgba(252, 176, 69, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body .content {
+    padding: 0 0 2.5rem;
+    border-bottom: .18rem dotted black;
+}
+
+body .container header h2 {
+    font-family: "Righteous", sans-serif;
+
+}
+
+
+form label {
+    font-family: "PT Sans";
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #d99c39;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #d1512d;
+    --bs-btn-border-color: #d1512d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #bb4120;
+    --bs-btn-hover-border-color: #a03315;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #d1512d;
+    --bs-btn-active-border-color: #d1512d;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #bb4120;
+    --bs-btn-disabled-border-color: #a03315;
+
+}
+
+
+
+
+.alertBox{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+.alertBox .box-content{
+    width: 31rem;
+    font-family:"Bree Serif", serif;
+}
+.alertBox .box-content li{
+    margin: 1rem 0;
+    font-family:"PT Sans", serif;
+    font-size: 18px;
+    padding: 0 0 0 10px;
+}
